@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cantinho Gourmet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'montserrat', sans-serif;
+      background-color: #f8d7da; /* rosa claro */
+      color: #000;
+    }
+
+    header {
+      background-color: #f48fb1;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      color: white;
+      font-size: 3em;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f06292;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 30px 20px;
+      gap: 15px;
+    }
+
+    .galeria img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #f06292;
+    }
+
+    .produtos {
+      padding: 30px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff0f5;
+      border-radius: 10px;
+      border: 2px solid #f06292;
+    
+    }
+
+    .produtos h2 {
+      text-align: center;
+      color: #d81b60;
+    }
+
+    .produtos ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.2em;
+    }
+
+    .produtos li {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cantinho Gourmet</h1>
+  </header>
+
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#encomendas">Encomendas</a>
+    <a href="#contato">Fale Conosco</a>
+  </nav>
+
+  <section class="galeria">
+    <img src="bolo1.jpg.jpg" alt="Produto 1">
+    <img src="doce1.jpg.jpg" alt="Produto 2">
+    <img src="doce2.jpg.jpg" alt="Produto 3">
+    <img src="docinhos.jpg" alt="Produto 4">
+    <img src="trufas.jpg" alt="Produto 5">
+  </section>
+
+  <section class="produtos" id="produtos">
+    <h2>Produtos</h2>
+    <ul>
+      <li>Bolo de aniversário - R$ 90,00</li>
+      <li>Bolos tradicionais - R$ 50,00</li>
+      <li>Docinhos - R$ 1,50 cada</li>
+      <li>Trufas - R$ 2,50 cada</li>
+      <li>Kit personalizado - R$ 45,00</li>
+    </ul>
+  </section>
+
+  <section id="encomendas" style="text-align: center; padding: 40px;">
+    <h2 style="color: #d81b60;">Encomendas</h2>
+    <p>Para fazer sua encomenda, entre em contato conosco pelo WhatsApp ou Instagram!</p>
+  </section>
+
+  <section id="contato" style="text-align: center; padding: 40px;">
+    <h2 style="color: #d81b60;">Fale Conosco</h2>
+    <p>WhatsApp: (21) 974165584</p>
+    <p>Instagram: @cantinhogourmet0678</p>
+  </section>
+
+</body>
+</html>
